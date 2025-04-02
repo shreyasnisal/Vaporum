@@ -1,0 +1,1 @@
+<Material name="Moon_8k" shader="Data/Shaders/Phong" vertexType="Vertex_PCUTBN" diffuseTexture="Data/Images/Moon_Diffuse_8k.png" normalTexture="Data/Images/Moon_Normal_8k.png" specGlossEmitTexture="Data/Images/Moon_SpecGlossEmit_8k.png" color="255,255,255,255"/>

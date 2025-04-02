@@ -1,0 +1,116 @@
+<MapDefinitions>
+  <MapDefinition name = "Grid4x4" groundMaterial = "Data/Materials/Moon.xml" overlayShader = "Data/Shaders/Unlit" gridSize = "4, 4" worldBoundsMin = "-1.0, -1.0, -1.0" worldBoundsMax = "4.0, 6.0, 10.0">
+    <Tiles>
+      <![CDATA[
+. . . . 
+. . . . 
+. . . . 
+. . . .
+]]>
+    </Tiles>
+    <Units player = "1">
+      <![CDATA[
+o . . . 
+o . . . 
+o . . . 
+o . . .
+]]>
+    </Units>
+    <Units player = "2">
+      <![CDATA[
+. . . . 
+. . . . 
+. . . b 
+. . . .
+]]>
+    </Units>
+  </MapDefinition>
+  <MapDefinition name = "Grid8x8" groundMaterial = "Data/Materials/Moon.xml" overlayShader = "Data/Shaders/Unlit" gridSize = "8, 8" worldBoundsMin = "-1.0, -1.0, -1.0" worldBoundsMax = "7.0, 12.0, 10.0">
+    <Tiles>
+      <![CDATA[
+. . . . . . . . 
+. . . . . . X . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. X . . . . . . 
+. . . . . . . . 
+]]>
+    </Tiles>
+    <Units player = "1">
+      <![CDATA[
+. . . . . . . .
+. . . . . . . .
+. . b . . . . .
+. . o . . . . .
+. . h . . . . .
+. . b . . . . .
+. . . . . . . .
+. . . . . . . .
+]]>
+    </Units>
+    <Units player = "2">
+      <![CDATA[
+. . . . . . . .
+. . . . . . . .
+. . . . . b . .
+. . . . . o . .
+. . . . . h . .
+. . . . . b . .
+. . . . . . . .
+. . . . . . . .
+]]>
+    </Units>
+  </MapDefinition>
+  <MapDefinition name = "Grid12x12" groundMaterial = "Data/Materials/Moon.xml" overlayShader = "Data/Shaders/Unlit" gridSize = "12, 12" worldBoundsMin = "-0.65, 4.55, -1.0" worldBoundsMax = "10.15, 11.95, 10.0">
+    <Tiles>
+      <![CDATA[
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . X . . . . . . . . .
+. . X . . . . . . . . .
+. . X X X . . . . . . .
+. . . . . . . X X X . .
+. . . . . . . . . X . .
+. . . . . . . . . X . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+]]>
+    </Tiles>
+    <Units player = "1">
+      <![CDATA[
+. . . . . . . . . . . .
+p . . . . . . . . . . .
+o . . . . . . . . . . .
+h . . . . . . . . . . .
+g . . . . . . . . . . .
+b . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+]]>
+    </Units>
+    <Units player = "2">
+      <![CDATA[
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . .
+. . . . . . . . . . . b
+. . . . . . . . . . . g
+. . . . . . . . . . . h
+. . . . . . . . . . . o
+. . . . . . . . . . . p
+. . . . . . . . . . . .
+]]>
+    </Units>
+  </MapDefinition>  
+</MapDefinitions>

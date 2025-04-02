@@ -1,0 +1,14 @@
+<GameConfig
+  windowTitle="Vaporum Client"
+  windowSize="1500,500"
+  windowPosition="35,575"
+  netMode="Client"
+/>
+
+<!--
+  windowTitle="Vaporum Client"
+  windowSize="1500,500"
+  windowPosition="35,575"
+  netMode="Client"
+-->
+

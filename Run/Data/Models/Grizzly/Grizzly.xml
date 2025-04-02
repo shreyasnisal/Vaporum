@@ -1,0 +1,3 @@
+<Model name="Grizzly" path="Data/Models/Grizzly/Grizzly.obj" shader="Data/Shaders/Diffuse">
+  <Transform x="1,0,0" y="0,1,0" z="0,0,1" t="0,0,0" scale="0.1"/>
+</Model>

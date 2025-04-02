@@ -1,0 +1,108 @@
+<EffectDefinitions>
+  <EffectDefinition name = "Shot">
+    <Emitter
+      name = "Light Smoke" count = "6" textureName = "Data\\Images\\Particles\\Smoke01.png" shaderName = "Unlit" position = "0, 0, 0" direction = "0, 0, 0" spread = "30.0"
+      minLifetime = "1.0" maxLifetime = "2.0" minOffset = "0.0" maxOffset = "0.05" minRotation = "0.0" maxRotation = "360.0" minColor = "127, 127, 127" maxColor = "255, 255, 255"
+      minSize = "0.25" maxSize = "0.5" minSpeed = "0.25" maxSpeed = "0.5" minRotationSpeed = "15.0" maxRotationSpeed = "45.0"
+      startAlpha = "1.0" endAlpha = "0.0" startAlphaTime = "0.0" endAlphaTime = "1.0"
+      startSpeed = "1.0" endSpeed = "0.25" startSpeedTime = "0.0" endSpeedTime = "1.0"
+      startSize = "1.0" endSize = "4.0" startSizeTime = "0.0" endSizeTime = "1.0" 
+    />
+    <Emitter
+      name = "Dark Smoke" count = "12" textureName = "Data\\Images\\Particles\\Smoke02.png" shaderName = "Unlit" position = "0, 0, 0" direction = "0, 0, 0" spread = "10.0"
+      minLifetime = "0.5" maxLifetime = "1.0" minOffset = "0.0" maxOffset = "0.05" minRotation = "0.0" maxRotation = "360.0" minColor = "63, 63, 63" maxColor = "127, 127, 127"
+      minSize = "0.125" maxSize = "0.25" minSpeed = "1.0" maxSpeed = "1.5" minRotationSpeed = "15.0" maxRotationSpeed = "45.0"
+      startAlpha = "1.0" endAlpha = "0.0" startAlphaTime = "0.5" endAlphaTime = "1.0"
+      startSpeed = "1.0" endSpeed = "0.25" startSpeedTime = "0.0" endSpeedTime = "1.0"
+      startSize = "1.0" endSize = "2.0" startSizeTime = "0.0" endSizeTime = "1.0" 
+    />
+    <Emitter
+      name = "Muzzle Flash 1" count = "3" textureName = "Data\\Images\\Particles\\Fire01.png" shaderName = "Unlit" position = "0, 0, 0" direction = "0, 0, 0" spread = "0.0"
+      minLifetime = "0.5" maxLifetime = "1.0" minOffset = "0.01" maxOffset = "0.01" minRotation = "0.0" maxRotation = "0.0" minColor = "200, 31, 31" maxColor = "255, 127, 127"
+      minSize = "0.125" maxSize = "0.25" minSpeed = "0.1" maxSpeed = "0.2" minRotationSpeed = "0.0" maxRotationSpeed = "0.0"
+      startAlpha = "1.0" endAlpha = "0.0" startAlphaTime = "0.75" endAlphaTime = "1.0"
+      startSpeed = "1.0" endSpeed = "1,0" startSpeedTime = "0.0" endSpeedTime = "1.0"
+      startSize = "1.0" endSize = "1.5" startSizeTime = "0.0" endSizeTime = "1.0" 
+    />
+    <Emitter
+      name = "Muzzle Flash 2" count = "3" textureName = "Data\\Images\\Particles\\Fire02.png" shaderName = "Unlit" position = "0, 0, 0" direction = "0, 0, 0" spread = "0.0"
+      minLifetime = "0.5" maxLifetime = "1.0" minOffset = "0.01" maxOffset = "0.01" minRotation = "0.0" maxRotation = "0.0" minColor = "200, 31, 31" maxColor = "255, 127, 127"
+      minSize = "0.125" maxSize = "0.25" minSpeed = "0.1" maxSpeed = "0.2" minRotationSpeed = "0.0" maxRotationSpeed = "0.0"
+      startAlpha = "1.0" endAlpha = "0.0" startAlphaTime = "0.75" endAlphaTime = "1.0"
+      startSpeed = "1.0" endSpeed = "1,0" startSpeedTime = "0.0" endSpeedTime = "1.0"
+      startSize = "1.0" endSize = "1.5" startSizeTime = "0.0" endSizeTime = "1.0" 
+    />
+  </EffectDefinition>
+  <EffectDefinition name = "Hit">
+    <Emitter
+      name = "Smoke" count = "6" textureName = "Data\\Images\\Particles\\Smoke01.png" shaderName = "Unlit" position = "0, 0, 0" direction = "0, 0, 0" spread = "45.0"
+      minLifetime = "0.5" maxLifetime = "1.0" minOffset = "0.0" maxOffset = "0.0" minRotation = "0.0" maxRotation = "360.0" minColor = "127, 127, 127" maxColor = "255, 255, 255"
+      minSize = "0.15" maxSize = "0.3" minSpeed = "0.125" maxSpeed = "0.25" minRotationSpeed = "15.0" maxRotationSpeed = "45.0"
+      startAlpha = "1.0" endAlpha = "0.0" startAlphaTime = "0.25" endAlphaTime = "1.0"
+      startSpeed = "1.0" endSpeed = "0.25" startSpeedTime = "0.0" endSpeedTime = "1.0"
+      startSize = "1.0" endSize = "4.0" startSizeTime = "0.0" endSizeTime = "1.0" 
+    />
+    <Emitter
+      name = "Dark Smoke" count = "6" textureName = "Data\\Images\\Particles\\Smoke02.png" shaderName = "Unlit" position = "0, 0, 0" direction = "0, 0, 0" spread = "180.0"
+      minLifetime = "0.25" maxLifetime = "0.5" minOffset = "0.0" maxOffset = "0.0" minRotation = "0.0" maxRotation = "360.0" minColor = "31, 31, 31" maxColor = "63, 63, 63"
+      minSize = "0.1" maxSize = "0.2" minSpeed = "0.25" maxSpeed = "0.5" minRotationSpeed = "15.0" maxRotationSpeed = "45.0"
+      startAlpha = "1.0" endAlpha = "0.0" startAlphaTime = "0.5" endAlphaTime = "1.0"
+      startSpeed = "1.0" endSpeed = "0.75" startSpeedTime = "0.0" endSpeedTime = "1.0"
+      startSize = "1.0" endSize = "1.25" startSizeTime = "0.0" endSizeTime = "1.0" 
+    />
+    <Emitter
+      name = "Sparks" count = "6" textureName = "Data\\Images\\Particles\\Fire01.png" shaderName = "Unlit" position = "0, 0, 0" direction = "0, 0, 0" spread = "180.0"
+      minLifetime = "0.125" maxLifetime = "0.25" minOffset = "0.01" maxOffset = "0.01" minRotation = "0.0" maxRotation = "0.0" minColor = "200, 31, 31" maxColor = "255, 127, 127"
+      minSize = "0.05" maxSize = "0.1" minSpeed = "0.5" maxSpeed = "0.75" minRotationSpeed = "0.0" maxRotationSpeed = "0.0"
+      startAlpha = "1.0" endAlpha = "0.0" startAlphaTime = "0.75" endAlphaTime = "1.0"
+      startSpeed = "1.0" endSpeed = "1.0" startSpeedTime = "0.0" endSpeedTime = "1.0"
+      startSize = "1.0" endSize = "1.5" startSizeTime = "0.0" endSizeTime = "1.0" 
+    />
+  </EffectDefinition>
+  <EffectDefinition name = "Explosion">
+    <Emitter
+      name = "Smoke 1" count = "12" textureName = "Data\\Images\\Particles\\Smoke01.png" shaderName = "Unlit" position = "0, 0, 0" direction = "0, 0, 0" spread = "360.0"
+      minLifetime = "1.5" maxLifetime = "2.5" minOffset = "0.0" maxOffset = "0.1" minRotation = "0.0" maxRotation = "360.0" minColor = "127, 127, 127" maxColor = "255, 255, 255"
+      minSize = "0.25" maxSize = "0.75" minSpeed = "0.25" maxSpeed = "0.5" minRotationSpeed = "15.0" maxRotationSpeed = "45.0"
+      startAlpha = "1.0" endAlpha = "0.0" startAlphaTime = "0.5" endAlphaTime = "1.0"
+      startSpeed = "1.0" endSpeed = "0.25" startSpeedTime = "0.0" endSpeedTime = "1.0"
+      startSize = "1.0" endSize = "4.0" startSizeTime = "0.0" endSizeTime = "1.0" 
+    />
+    <Emitter
+      name = "Smoke 2" count = "6" layer = "1" textureName = "Data\\Images\\Particles\\Smoke01.png" shaderName = "Unlit" position = "0, 0, 0" direction = "0, 0, 0" spread = "360.0"
+      minLifetime = "1.0" maxLifetime = "2.0" minOffset = "0.0" maxOffset = "0.1" minRotation = "0.0" maxRotation = "360.0" minColor = "31, 31, 31" maxColor = "63, 63, 63"
+      minSize = "0.25" maxSize = "0.75" minSpeed = "0.5" maxSpeed = "0.75" minRotationSpeed = "15.0" maxRotationSpeed = "45.0"
+      startAlpha = "1.0" endAlpha = "0.0" startAlphaTime = "0.5" endAlphaTime = "1.0"
+      startSpeed = "1.0" endSpeed = "0.25" startSpeedTime = "0.0" endSpeedTime = "1.0"
+      startSize = "1.0" endSize = "4.0" startSizeTime = "0.0" endSizeTime = "1.0" 
+    />
+    <Emitter
+      name = "Fire 1" count = "6" textureName = "Data\\Images\\Particles\\Fire01.png" shaderName = "Unlit" position = "0, 0, 0" direction = "0, 0, 0" spread = "360.0"
+      minLifetime = "1.0" maxLifetime = "2.0" minOffset = "0.01" maxOffset = "0.01" minRotation = "0.0" maxRotation = "0.0" minColor = "200, 31, 31" maxColor = "255, 127, 127"
+      minSize = "0.5" maxSize = "0.75" minSpeed = "0.1" maxSpeed = "0.2" minRotationSpeed = "0.0" maxRotationSpeed = "0.0"
+      startAlpha = "1.0" endAlpha = "0.0" startAlphaTime = "0.75" endAlphaTime = "1.0"
+      startSpeed = "1.0" endSpeed = "1,0" startSpeedTime = "0.0" endSpeedTime = "1.0"
+      startSize = "1.0" endSize = "1.5" startSizeTime = "0.0" endSizeTime = "1.0" 
+    />
+    <Emitter
+      name = "Fire 2" count = "6" layer = "1" textureName = "Data\\Images\\Particles\\Fire02.png" shaderName = "Unlit" position = "0, 0, 0" direction = "0, 0, 0" spread = "360.0"
+      minLifetime = "1.0" maxLifetime = "2.0" minOffset = "0.01" maxOffset = "0.01" minRotation = "0.0" maxRotation = "0.0" minColor = "200, 31, 31" maxColor = "255, 127, 127"
+      minSize = "0.5" maxSize = "0.75" minSpeed = "0.1" maxSpeed = "0.2" minRotationSpeed = "0.0" maxRotationSpeed = "0.0"
+      startAlpha = "1.0" endAlpha = "0.0" startAlphaTime = "0.75" endAlphaTime = "1.0"
+      startSpeed = "1.0" endSpeed = "1,0" startSpeedTime = "0.0" endSpeedTime = "1.0"
+      startSize = "1.0" endSize = "1.5" startSizeTime = "0.0" endSizeTime = "1.0" 
+    />
+  </EffectDefinition>
+  <EffectDefinition name = "Damage">
+    <Emitter
+      name = "Damage" count = "1" layer = "1" textureName = "Default" shaderName = "Unlit" position = "0, 0, 0" direction = "0, 0, 0" spread = "0.0"
+      minLifetime = "1.0" maxLifetime = "1.0" minOffset = "0.0" maxOffset = "0.0" minRotation = "0.0" maxRotation = "0.0" minColor = "255, 0, 0" maxColor = "255, 0, 0"
+      minSize = "1.0" maxSize = "1.0" minSpeed = "0.25" maxSpeed = "0.25" minRotationSpeed = "0.0" maxRotationSpeed = "0.0"
+      startAlpha = "1.0" endAlpha = "0.0" startAlphaTime = "0.5" endAlphaTime = "1.0"
+      startSpeed = "1.0" endSpeed = "1.0" startSpeedTime = "0.0" endSpeedTime = "1.0"
+      startSize = "1.0" endSize = "1.0" startSizeTime = "0.0" endSizeTime = "1.0" 
+    />
+  </EffectDefinition>
+</EffectDefinitions>
+
+

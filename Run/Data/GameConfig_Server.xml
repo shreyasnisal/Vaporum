@@ -1,0 +1,14 @@
+<GameConfig
+  windowTitle="Vaporum Server"
+  windowSize="1500,500"
+  windowPosition="35,35"
+  netMode="Server"
+/>
+
+<!--
+  windowTitle="Vaporum Server"
+  windowSize="1500,500"
+  windowPosition="35,35"
+  netMode="Server"
+-->
+

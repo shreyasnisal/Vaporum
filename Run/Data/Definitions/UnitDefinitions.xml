@@ -1,0 +1,32 @@
+<UnitDefinitions>
+  <UnitDefinition
+    symbol = "b" name = "Bison" imageFilename = "Data/Images/Tanks/Bison.png" modelFilename = "Data/Models/Bison/Bison.xml" type = "Tank"
+    muzzlePosition = "0.32, 0.0, 0.21" hitEffectName = "Hit" explosionEffectName = "Explosion" shotEffectName = "Shot"
+    hitAudioFilename = "Data/Audio/Hit.wav" explosionAudioFilename = "Data/Audio/Explosion.wav" shotAudioFilename = "Data/Audio/TankShot.wav"
+    groundAttackDamage = "50" groundAttackRangeMin = "1" groundAttackRangeMax = "1" movementRange = "6" defense = "40" health = "8"
+  />
+  <UnitDefinition
+    symbol = "g" name = "Grizzly" imageFilename = "Data/Images/Tanks/Grizzly.png" modelFilename = "Data/Models/Grizzly/Grizzly.xml" type = "Tank"
+    muzzlePosition = "0.39, 0.0, 0.26" hitEffectName = "Hit" explosionEffectName = "Explosion" shotEffectName = "Shot"
+    hitAudioFilename = "Data/Audio/Hit.wav" explosionAudioFilename = "Data/Audio/Explosion.wav" shotAudioFilename = "Data/Audio/TankShot.wav"
+    groundAttackDamage = "70" groundAttackRangeMin = "1" groundAttackRangeMax = "1" movementRange = "4" defense = "50" health = "8"
+  />
+  <UnitDefinition
+    symbol = "h" name = "Hadrian" imageFilename = "Data/Images/Tanks/Hadrian.png" modelFilename = "Data/Models/Hadrian/Hadrian.xml" type = "Artillery"
+    muzzlePosition = "0.33, 0.0, 0.23" hitEffectName = "Hit" explosionEffectName = "Explosion" shotEffectName = "Shot"
+    hitAudioFilename = "Data/Audio/Hit.wav" explosionAudioFilename = "Data/Audio/Explosion.wav" shotAudioFilename = "Data/Audio/RocketShot.wav"
+    groundAttackDamage = "45" groundAttackRangeMin = "2" groundAttackRangeMax = "5" movementRange = "4" defense = "30" health = "8"
+  />
+  <UnitDefinition
+    symbol = "o" name = "Octopus" imageFilename = "Data/Images/Tanks/Octopus.png" modelFilename = "Data/Models/Octopus/Octopus.xml" type = "Artillery"
+    muzzlePosition = "0.08, 0.0, 0.25" hitEffectName = "Hit" explosionEffectName = "Explosion" shotEffectName = "Shot"
+    hitAudioFilename = "Data/Audio/Hit.wav" explosionAudioFilename = "Data/Audio/Explosion.wav" shotAudioFilename = "Data/Audio/RocketShot.wav"
+    groundAttackDamage = "60" groundAttackRangeMin = "2" groundAttackRangeMax = "4" movementRange = "4" defense = "30" health = "8"
+  />
+  <UnitDefinition
+    symbol = "p" name = "Polar" imageFilename = "Data/Images/Tanks/Polar.png" modelFilename = "Data/Models/Polar/Polar.xml" type = "Tank"
+    muzzlePosition = "0.32, 0.0, 0.21" hitEffectName = "Hit" explosionEffectName = "Explosion" shotEffectName = "Shot"
+    hitAudioFilename = "Data/Audio/Hit.wav" explosionAudioFilename = "Data/Audio/Explosion.wav" shotAudioFilename = "Data/Audio/TankShot.wav"
+    groundAttackDamage = "60" groundAttackRangeMin = "1" groundAttackRangeMax = "1" movementRange = "4" defense = "60" health = "8"
+  />
+</UnitDefinitions>
